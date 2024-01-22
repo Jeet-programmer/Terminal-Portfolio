@@ -49,7 +49,9 @@ export let commandsList = [
     "typing",
     "reset",
     "test",
-    "git"
+    "git",
+    "hire",
+    "hireme"
 ];
 
 

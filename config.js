@@ -101,6 +101,11 @@ const config = {
             "title": "neofetch",
             "description": "to get my info",
             "info": ["use neofetch command to to get user's info"]
+        },
+        {
+            "title": "hire",
+            "description": "to hire me 😁",
+            "info": ["use hire command to to hire me 😁"]
         }
     ],
     "terminal": {
