@@ -136,13 +136,13 @@ const config = {
     "projects": [
         {
             "title": "Sachai",
-            "link": "https://github.com/TechSpiritSS/Mood-Messenger",
-            "description": "Mood Messenger is a real-time chat application built using Node.js, React.js, and Cloud SQL. It allows users to sign in with their Google account, initiate chats with other registered users based on their email, send messages, and view previous chats."
+            "link": "https://key2ai.co/blogs",
+            "description": "It is a Fake News Detection AI"
         },
         {
             "title": "Sanket",
-            "link": "https://github.com/TechSpiritSS/PregChat_Dialogflow",
-            "description": "PregChat is a chatbot designed to help expecting mothers access important information about their pregnancy in a simple, accessible and interactive way. Our chatbot is powered by Dialogflow, a Google Cloud-based natural language processing platform. With PregChat, mothers can easily ask about their symptoms and receive information regarding medical emergencies, first aid, medications, and exercises. PregChat aims to provide support and education to mothers in need, ultimately improving the health outcomes for both mother and child."
+            "link": "https://github.com/Jeet-programmer/Indian-Sign-Language-Recognition-System",
+        "description": "It is a sign Language Translator App"
         }
     ],
     "contact": {
