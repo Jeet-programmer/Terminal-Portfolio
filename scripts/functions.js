@@ -325,6 +325,10 @@ async function getInputValue(history, remove = false, cmd = undefined) {
             break;
         case "exit":
             window.close();
+        case "test":
+            trueValue(value);
+            await createText(config.test);
+            break;
         default:
             if (value.substring(0, 5) === "cheer") {
                 trueValue(value);

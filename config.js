@@ -96,6 +96,11 @@ const config = {
             "title": "reset",
             "description": "to reload site",
             "info": ["use reset command to to reload site"]
+        },
+        {
+            "title": "neofetch",
+            "description": "to get my info",
+            "info": ["use neofetch command to to get user's info"]
         }
     ],
     "terminal": {
@@ -157,7 +162,7 @@ const config = {
     "skills": [
         {
             "title": "Technical skills are: ",
-        "description": "Python, Flask, FastAPI, Tenserflow, Transformers C, MySQL, Linux, JSON, DSA, Google Cloud Platform, Git, Material UI, Bootstrap, Tailwind"
+        "description": "Python, Flask, FastAPI, Flutter, Tenserflow, Transformers C, MySQL, Linux, JSON, DSA, Google Cloud Platform, Git, Material UI, Bootstrap, Tailwind"
         },
         {
             "title": "Other Skills are:",
@@ -166,10 +171,11 @@ const config = {
     ],
     "neofetch": {
         "name": "Jeet Ghosh",
-        "title": "Devops Developer",
+        "title": "Devops Engineer",
         "skills": "Frontend, Backend, Cloud",
         "shell": "zsh",
         "languages": "Python, Javascript, C++, HTML/CSS, SQL"
     },
+    "test":"Hello you tested a command 😉"
 }
 export default config
