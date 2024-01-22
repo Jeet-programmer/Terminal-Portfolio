@@ -472,10 +472,11 @@ function downloadFile() {
     const p = document.createElement("p");
     p.innerHTML = "<span class='blink'>###############<span />";
     app.appendChild(p);
-    setTimeout(() => {
-        app.removeChild(p);
-    }, 2500);
-    document.body.removeChild(link);
+    // setTimeout(() => {
+    //     app.removeChild(p);
+    // }, 2500);
+    // document.body.removeChild(link);
+    // new_line();
 }
 
 async function calc(flag) {
