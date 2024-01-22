@@ -166,10 +166,10 @@ const config = {
     ],
     "neofetch": {
         "name": "Jeet Ghosh",
-        "title": "MERN Developer",
+        "title": "Devops Developer",
         "skills": "Frontend, Backend, Cloud",
         "shell": "zsh",
-        "languages": "Javascript, C++, HTML/CSS, SQL"
+        "languages": "Python, Javascript, C++, HTML/CSS, SQL"
     },
 }
 export default config
