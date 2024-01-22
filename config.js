@@ -176,6 +176,7 @@ const config = {
         "shell": "zsh",
         "languages": "Python, Javascript, C++, HTML/CSS, SQL"
     },
-    "test":"Hello you tested a command 😉"
+    "test":"Hello you tested a command 😉",
+    "git":"use git clone command to clone repo https://github.com/Jeet-programmer/Terminal-Portfolio.git"
 }
 export default config

@@ -329,6 +329,10 @@ async function getInputValue(history, remove = false, cmd = undefined) {
             trueValue(value);
             await createText(config.test);
             break;
+        case "git":
+            trueValue(value);
+            await createText(config.git);
+            break;
         default:
             if (value.substring(0, 5) === "cheer") {
                 trueValue(value);

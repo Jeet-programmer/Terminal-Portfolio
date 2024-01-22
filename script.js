@@ -48,7 +48,8 @@ export let commandsList = [
     "history",
     "typing",
     "reset",
-    "test"
+    "test",
+    "git"
 ];
 
 
