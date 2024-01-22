@@ -333,8 +333,8 @@ async function getInputValue(history, remove = false, cmd = undefined) {
             trueValue(value);
             await createText(config.git);
             break;
-        case "Hire":
-        case "Hireme":
+        case "hire":
+        case "hireme":
             createText(
                 `Hey! Would love to get in touch.<br>
                     My linkedin profile link: <a href="${config.social.filter((obj) => obj.title.toLowerCase() == 'linkedin')[0].link}" target="_blank"> LinkedIn</a>.<br>
