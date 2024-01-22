@@ -333,6 +333,14 @@ async function getInputValue(history, remove = false, cmd = undefined) {
             trueValue(value);
             await createText(config.git);
             break;
+        case "Hire":
+        case "Hireme":
+            createText(
+                `Hey! Would love to get in touch.<br>
+                    My linkedin profile link: <a href="${config.social.filter((obj) => obj.title.toLowerCase() == 'linkedin')[0].link}" target="_blank"> LinkedIn</a>.<br>
+                        Drop me a text at <a href="mailto:${config.contact.email}" target="_blank">${config.contact.email}</a>`, false
+            );
+            break;
         default:
             if (value.substring(0, 5) === "cheer") {
                 trueValue(value);
