@@ -75,7 +75,7 @@ async function openTerminal() {
     await createText("Starting up...");
     await delay(800);
     await createText("You can now interact with the Terminal");
-    await createCode("Type help", "for a list of commands");
+    await createCode("Type ls", "for a list of commands");
     await delay(500);
     new_line();
 }
