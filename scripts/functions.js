@@ -277,8 +277,9 @@ async function getInputValue(history, remove = false, cmd = undefined) {
             document
                 .querySelectorAll("section")
                 .forEach((e) => e.parentNode.removeChild(e));
-            removeNeoFetch();
+            
             removeInput();
+            removeNeoFetch();
             await delay(150);
             break;
         case "contact":
